@@ -1,5 +1,6 @@
 package Video30;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Video30Questions {
@@ -79,6 +80,67 @@ public class Video30Questions {
 //                System.out.print(",");
 //                continue;
 //            }
+//        }
+
+//        Sual7:Klavyeden girilen bir sayının faktöriyelini alan bir uygulama yazınız.
+//        System.out.print("Zəhmət olmasa rəqəm daxil edin: ");
+//        int inputNumber = scanner.nextInt();
+//        int sum =1;
+//        for (int i=1;i<=inputNumber;i++){
+//            sum *=i;
+//        }
+//        System.out.println("daxil edilən ədədin faktorialı: "+sum);
+
+
+//        sual8:Aşağıda tanımı verilen f(x,y) fonksiyonunu klavyeden girilen x ve y değerleri için hesaplayınız.
+//        System.out.print("X ədədini daxil edin: ");
+//        float inputX = scanner.nextFloat();
+//        System.out.print("Y ədədini daxil edin: ");
+//        float inputY = scanner.nextFloat();
+//        float fXY = 0;
+//        if (inputX>0 && inputY<0){
+//            fXY = (4*inputX)+(2*inputY)+4;
+//            System.out.print(" x>0, y<0 ise f(x,y): "+fXY);
+//        } else if (inputX>0 && inputY ==0) {
+//            fXY = (2*inputX)-inputY+3;
+//            System.out.print(" x>0, y=0 ise f(x,y): "+fXY);
+//        } else if (inputX < 0 && inputY>0) {
+//            fXY = (3*inputX)+(4*inputY)+3;
+//            System.out.println(" x<0, y>0 ise f(x,y): "+fXY);
+//        }
+
+//        Sual9:100lük sistemde verilen notları harfli sistemde gösteren bir uygulama yazınız
+//        System.out.print("Imtahan balınızı daxil edin: ");
+//        int inputExamResult = scanner.nextInt();
+//        if (inputExamResult<51){
+//            System.out.println("İmtahandan kəsilmisiniz.");
+//        } else if (inputExamResult<61) {
+//            System.out.println(inputExamResult+" Bal toplayaraq imtahandan E almsınız.");
+//        } else if (inputExamResult<71) {
+//            System.out.println(inputExamResult+" Bal toplayaraq imtahandan D almsınız.");
+//        }
+//        else if (inputExamResult<81) {
+//            System.out.println(inputExamResult+" Bal toplayaraq imtahandan C almsınız.");
+//        }else if (inputExamResult<91) {
+//            System.out.println(inputExamResult+" Bal toplayaraq imtahandan B almsınız.");
+//        }else {
+//            System.out.println("Təbriklər. imtahandan "+inputExamResult+" bal toplayaraq A aldınız.");
+//        }
+
+
+//        Sual10:Çarpım tablosunu oluşturan bir uygulama yazınız.
+//        for (int i = 1; i <= 10; i++) {
+//            System.out.printf("%4d", i);
+//        }
+//        System.out.println();
+//        System.out.println("   ------------------------------------------");
+//        // Cədvəl
+//        for (int i = 1; i <= 10; i++) {
+//            System.out.printf("%3d |", i);  // Sətir nömrəsi
+//            for (int j = 1; j <= 10; j++) {
+//                System.out.printf("%4d", i * j);
+//            }
+//            System.out.println();
 //        }
     }
 }
