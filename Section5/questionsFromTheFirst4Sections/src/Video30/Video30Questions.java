@@ -142,5 +142,30 @@ public class Video30Questions {
 //            }
 //            System.out.println();
 //        }
+
+
+//        Sual11:
+//        Sıcak soguk oyunu yapalım. Sistem 100e kadar bir sayı üretsin. Kullanıcı bu sayıyı tahmin
+//        etmeye çalışsın. Kullanıcının girdiği değere göre kullanıcıyı arttır azalt diyerek uyaralım.
+//        Kullanıcı sayıyı bulana kadar tahmin istemeye devam edelim ve sayıyı buldugunda kaç denemeden
+//        sonra bulduğunu belirtelim.
+//        int randomNumber = (int)(Math.random()*100+1);
+//        System.out.println("Sistem 100 e qeder bir reqem tapdı");
+//        int texminOlunanEded;
+//        int texminOlunmaSayı = 0;
+//        do {
+//            System.out.print("Zehmet olmasa bir deyer girin: ");
+//            texminOlunanEded = scanner.nextInt();
+//            texminOlunmaSayı++;
+//            if (texminOlunanEded<randomNumber){
+//                System.out.println("Daha böyük bir reqem girin!");
+//            } else if (texminOlunanEded>randomNumber) {
+//                System.out.println("Daha kiçik bir reqem girin!");
+//            }else {
+//                System.out.println("Təbriklər, Doğru tapdınız :)");
+//                System.out.println("Toplam "+texminOlunmaSayı+" defeye tapdınız");
+//            }
+//        }
+//        while (texminOlunanEded !=randomNumber);
     }
 }
