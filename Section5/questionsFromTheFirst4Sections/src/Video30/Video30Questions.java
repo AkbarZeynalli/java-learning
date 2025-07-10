@@ -1,5 +1,6 @@
 package Video30;
 
+import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
@@ -167,5 +168,77 @@ public class Video30Questions {
 //            }
 //        }
 //        while (texminOlunanEded !=randomNumber);
+
+
+//        SORU 12:
+//        Kullanıcıdan sürekli olarak sayı alan ve de kullanıcı 0a bastığında girdiği sayıların
+//        çarpımını sonuç olarak gösteren programı yazınız.
+//        int sayi ;
+//        int result = 1;
+//        do {
+//            System.out.print("Zəhmət olmasa bir rəqəm daxil edin: ");
+//            sayi =scanner.nextInt();
+//            if (sayi !=0){
+//                result *=sayi;
+//            }
+//        }while (sayi !=0);
+//        System.out.println("Daxil etdiyiniz ədədlərin hasili: "+result);
+
+
+//        SORU 13:
+//        Kullanıcıdan aldığınız iki integer değerin en büyük ortak bölenini bulan uygulamayı yazınız
+//        Örneğin 14 ve 35 sayıları için ebob = 7 olmalıdır
+//        System.out.print("1 ci reqemi daxil edin: ");
+//        int firstNumber = scanner.nextInt();
+//        System.out.print("2 ci reqemi daxil edin: ");
+//        int secondNumber = scanner.nextInt();
+//        int ebob =1;
+//        int min = (firstNumber <secondNumber) ?firstNumber :secondNumber;
+//        for (int i = 1;i<=min;i++){
+//            if (firstNumber % i ==0 &&secondNumber %i ==0){
+//                ebob = i;
+//            }
+//        }
+//        System.out.println("EBOB (" + firstNumber + ", " + secondNumber + ") = " + ebob);
+
+
+//        SORU 14:
+//        Girilen bir metnin palindrome olup olmadığını kontrol eden programı yazınız.
+//        Tersten okunuşu aynı olan kelimeler palindrome'dur. Kaçak gibi...
+//        System.out.print("Zəhmət olmasa bir söz girin: ");
+//        String testPalindrome = scanner.nextLine();
+//        String tersMetin = "";
+//        for (int i = testPalindrome.length()-1;i>=0;i--){
+//            tersMetin +=testPalindrome.charAt(i);
+//        }
+//        if (testPalindrome.equals(tersMetin)) {
+//            System.out.println("✅ Girilen metin bir palindromdur.");
+//        } else {
+//            System.out.println("❌ Girilen metin palindrom değildir.");
+//        }
+
+
+//        SORU 15:
+//        Kullanıcıdan aldığınız integer değere kadar olan tüm asal(sadə) sayıları yazdıran programı yazınız.
+//        10 için ekranda 2,3,5,7 değerleri olmalıdır.
+//        System.out.print("Bir sayı girin: ");
+//        int sayi = scanner.nextInt();
+//        System.out.println(sayi + " sayısına kadar olan asal sayılar:");
+//        for (int i = 2; i <= sayi; i++) {
+//            int bolenSayisi = 0;
+//            for (int j = 1; j <= i; j++) {
+//                if (i % j == 0) {
+//                    bolenSayisi++;
+//                }
+//            }
+//            if (bolenSayisi == 2) {
+//                System.out.print(i + " ");
+//            }
+//        }
+
+
+//        SORU 16:
+//        1 + 2 + 4 + 7 + 11 + 16 + 20 + 23  + 25 + 26 + 28 + 31 + 35 =? işleminin sonucunu bulan java projesini yazınız
+//        System.out.println(1 + 2 + 4 + 7 + 11 + 16 + 20 + 23  + 25 + 26 + 28 + 31 + 35);
     }
 }
